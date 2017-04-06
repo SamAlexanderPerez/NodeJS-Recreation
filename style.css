@@ -1,4 +1,5 @@
 header{
+    background-color: black;
     height:150px;
     width: 1000px;
 }
@@ -9,6 +10,7 @@ header{
     border-color:white;
 }
 #information{
+  background-color: white;
   width:1000px;
   height:750px;
 }
@@ -24,7 +26,7 @@ footer{
 #buttons{
   width:inherit;
   height:300px;
-  margin: 25 auto;
+  margin: 5 auto;
 }
 section p{
   text-align: center;
@@ -32,5 +34,7 @@ section p{
 .button{
   float:left;
   background-color: green;
-  
+}
+footer p{
+  text-align: left;
 }
