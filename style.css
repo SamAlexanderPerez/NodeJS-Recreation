@@ -1,22 +1,30 @@
 header{
     background-color: black;
     height:150px;
-    width: 1000px;
+    width: 100%;
+}
+header img{
+  width: 13%;
+  height:auto;
 }
 #image{
     height:400px;
-    width:950px;
+    width:100%;
     border-width:50px;
     border-color:white;
 }
+#image img{
+  width:100%;
+  height:auto;
+}
 #information{
   background-color: white;
-  width:1000px;
+  width:100%;
   height:750px;
 }
 footer{
   height:200px;
-  width:1000px;
+  width:100%;
 }
 #paragraph{
   width:inherit;
@@ -30,6 +38,7 @@ footer{
 }
 section p{
   text-align: center;
+  margin:0 auto;
 }
 .button{
   float:left;
