@@ -16,6 +16,7 @@ header img{
   height: 100%;
   width:auto;
   background-image: url("http://node.js.org/static/images/interactive/nodejs-interactive.png");
+  border: 10px white;
 }
 #information{
   background-color: white;
@@ -46,7 +47,6 @@ section p{
   float:left;
   background-color: green;
 }
-.button p{
 }
 footer p{
   text-align:left;
